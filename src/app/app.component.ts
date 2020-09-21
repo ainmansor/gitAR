@@ -27,12 +27,12 @@ export class AppComponent implements OnInit {
       url: '/ar',
       icon: 'pizza'
     },
-    /*{
-      title: 'Archived',
-      url: '/folder/Archived',
+    {
+      title: 'ArLocation Location',
+      url: '/ar-location',
       icon: 'archive'
     },
-    {
+    /*{
       title: 'Trash',
       url: '/folder/Trash',
       icon: 'trash'

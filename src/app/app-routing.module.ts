@@ -22,6 +22,10 @@ const routes: Routes = [
   {
     path: 'test',
     loadChildren: () => import('./test/test.module').then( m => m.TestPageModule)
+  },
+  {
+    path: 'ar-location',
+    loadChildren: () => import('./ar-location/ar-location.module').then( m => m.ArLocationPageModule)
   }
 ];
 
